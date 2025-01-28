@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    font-weight: 600;
+    font-size: 3.5em;
+   
+}
+img{
+    max-width: 200px;
+    float: right;
+}
+body{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main{
+    background-color: white;
+    width: 70%;
+    margin:0 auto 1rem auto;
+    padding: 1em;
+}
+
+#contact-button, button{
+    border: none;
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-radius: 2%;
+}
+
+label {
+    display: block;
+}

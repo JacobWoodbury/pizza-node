@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="icon" type = "image/jpg" href="images/slice.jpg">
+    <link rel="stylesheet" href="styles/pizza-styles.css">
+
+</head>
+<body>
+    <div id="main">
+
+    <header>
+        <img src="images/pizzaMan.jpg" alt = "pizza man">
+        <h1>Doe's Doughs</h1>
+        <p>good stuff</p>
+        <hr>
+        <a id="contact-button" href="#" role="button">Contact Us</a>
+    </header>
+    <!-- Form goes here-->
+     <form action="thankyou" method="get">
+        <fieldset>
+            <legend>Contact Info</legend>
+            
+            <label>First Name: 
+                <input type="text" name="fname">
+            </label>
+        
+            <label>Last Name: 
+                <input type="text" name="lname">
+            </label>
+
+            <label>Email: 
+                <input type="text" name="email">
+            </label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Piickup or Delivery?</legend>
+            <label>
+                <input type ="radio" name="method" value="Pickup">Pickup
+            </label>
+
+            <label> 
+                <input type="radio" name="method" value="Delivery">Delivery
+            </label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Toppings</legend>
+            <label>
+                <input type="checkbox" name ="toppings" value="cheese">Cheese
+            </label>
+
+            <label>
+                <input type="checkbox" name ="toppings" value="ham">Ham
+            </label>
+
+            <label>
+                <input type="checkbox" name ="toppings" value="mushrooms">Mushrooms
+            </label>
+        </fieldset>
+
+        <fieldset>
+           <select name="size" id="size">
+            <option value="none">Select a Size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+           </select>
+
+
+        </fieldset>
+        
+<button type="submit">Place Order</button>
+     </form>
+</div>
+
+</body>
+</html>
